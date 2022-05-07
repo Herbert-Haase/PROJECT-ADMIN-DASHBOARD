@@ -17,6 +17,13 @@ html, body {
 }
 
 /* sidebar section */
+.middle {
+    vertical-align: middle;
+}
+.bold {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
 
 .sidebar {
     letter-spacing: .15rem;
@@ -33,6 +40,7 @@ html, body {
     grid-template-columns: 1fr;
     grid-template-rows: 60px repeat(10, 20px);
     gap: 10px;
+    align-items: center;
 }
 li span, li div {
     display: inline-block;
@@ -162,6 +170,7 @@ main {
 .people * {
     display: inline-block;
 }
+
 
 
 
